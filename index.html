@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поднажми! - Команда, вдохновляющая на достижения</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="#" class="logo">Поднажми!</a>
+      <nav>
+        <a href="#about">О нас</a>
+        <a href="#events">Мероприятия</a>
+        <a href="#achievements">Достижения</a>
+        <a href="#join">Присоединиться</a>
+      </nav>
+      <button class="menu-toggle">☰</button>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <h1>Вдохновляем на Победы!</h1>
+      <p>Присоединяйтесь к команде "Поднажми!" и достигайте новых высот вместе с нами!</p>
+      <a href="#join" class="btn">Присоединиться</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2>О нас</h2>
+      <p>Мы – команда энтузиастов, объединенных любовью к спорту и стремлением к самосовершенствованию...</p>
+    </div>
+  </section>
+
+  <section id="events">
+    <div class="container">
+      <h2>Мероприятия</h2>
+      <div class="event-grid">
+        <div class="event-item">
+          <i class="fas fa-running fa-3x"></i>
+          <h3>Забег "Поднажми!" 21 км</h3>
+          <p>Приглашаем всех на наш ежегодный забег!</p>
+          <a href="event1.html" class="btn">Подробнее</a>
+        </div>
+        <div class="event-item">
+          <i class="fas fa-mountain fa-3x"></i>
+          <h3>Трейл "Эльбрус"</h3>
+          <p>Участвуйте в экстремальном забеге по склонам Эльбруса!</p>
+          <a href="event2.html" class="btn">Подробнее</a>
+        </div>
+        <div class="event-item">
+          <i class="fas fa-chess fa-3x"></i>
+          <h3>Шахматный турнир</h3>
+          <p>Испытайте интеллект в нашем турнире!</p>
+          <a href="event3.html" class="btn">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="achievements">
+    <div class="container">
+      <h2>Наши Достижения</h2>
+      <div class="achievement-grid">
+        <i class="fas fa-medal fa-3x"></i>
+        <i class="fas fa-trophy fa-3x"></i>
+        <i class="fas fa-users fa-3x"></i>
+      </div>
+    </div>
+  </section>
+
+  <section id="join">
+    <div class="container">
+      <h2>Присоединиться к Команде</h2>
+      <p>Заполните форму, чтобы стать частью "Поднажми!"</p>
+      <form action="mailto:max.em@mail.ru" method="POST" enctype="text/plain">
+        <input type="text" name="Имя" placeholder="Ваше имя" required>
+        <input type="email" name="Email" placeholder="Ваш email" required>
+        <textarea name="Сообщение" placeholder="Почему вы хотите к нам присоединиться?" required></textarea>
+        <button type="submit" class="btn">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 "Поднажми!" | <a href="#">Политика конфиденциальности</a></p>
+    </div>
+  </footer>
+
+  <button id="toTop"><i class="fas fa-chevron-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
