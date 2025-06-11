@@ -66,3 +66,16 @@ nav {
 #toTop:hover {
   background: #e64a19;
 }
+
+
+.achievement-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.achievement-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 1.2rem;
+}
